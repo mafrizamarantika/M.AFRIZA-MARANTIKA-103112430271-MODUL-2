@@ -35,7 +35,7 @@ void tukar(int *px, int *py)
 
 
 > Output
-> ![Screenshot bagian x](output/ssguided2.png)
+> ![Screenshot bagian x](output/ssguided1.png)
 ### soal 2 (call_by_reference.cpp)
 c++
 #include <iostream>
@@ -131,7 +131,7 @@ int main() {
 
 
 > Output
-> ![Screenshot bagian x](output/ss_Unguided1.png)
+> ![Screenshot bagian x](output/ssunguided1.png)
 
 
 
@@ -162,7 +162,7 @@ int main() {
 
 
 > Output
-> ![Screenshot bagian x](output/ss_unguided2.png)
+> ![Screenshot bagian x](output/ssunguided2.png)
 
 
 ## Referensi
