@@ -9,7 +9,7 @@ LAPRAK MODUL 2
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan nilai dengan tipe data yang sama dalam satu variabel. Setiap nilai yang disimpan di dalam array disebut elemen array, dan masing-masing elemen dapat diakses menggunakan indeks.
 ## Guided
 ### soal 1 (call_by_pointer.cpp)
-c++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -30,14 +30,15 @@ void tukar(int *px, int *py)
     *px = *py;
     *py = temp;
 }
-
-
+```
+Program ini menukar nilai dua variabel (a dan b) menggunakan parameter referensi (&).
+Fungsi tukar() menerima dua variabel, lalu menukar nilainya dengan variabel sementara temp.
 
 
 > Output
 > ![Screenshot bagian x](output/ssguided1.png)
 ### soal 2 (call_by_reference.cpp)
-c++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -76,8 +77,8 @@ int main() {
 
     return 0;
 }
-
-
+```
+Kode di atas adalah program C++ yang menukar nilai dua variabel (a dan b) menggunakan parameter referensi
 
 > Output
 > ![Screenshot bagian x](output/ssguided2.png)
@@ -87,7 +88,7 @@ int main() {
 
 ### Soal 1
 
-c++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -126,7 +127,8 @@ int main() {
 
     return 0;
 }
-
+```
+Program di atas adalah program C++ yang digunakan untuk menukar baris menjadi kolom pada sebuah matriks 3x3 (transpose).Matriks awal berisi angka 1 sampai 9. Fungsi transposeMatriks() menyalin isi matriks dengan posisi baris dan kolom ditukar (hasil[j][i] = m[i][j]). Fungsi tampilkanMatriks() menampilkan isi matriks ke layar. Program menampilkan matriks awal dan matriks hasil transpose.
        
 
 
@@ -137,7 +139,7 @@ int main() {
 
 ### Soal 2
 
-c++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -158,7 +160,8 @@ int main() {
     
     return 0;
 }
-
+```
+Program di atas adalah program C++ yang digunakan untuk mengkuadratkan nilai sebuah variabel menggunakan parameter referensi (&). Variabel angka diinisialisasi dengan nilai 5. Fungsi kuadratkan(int &x) menerima referensi dari variabel tersebut, lalu menghitung kuadratnya dengan operasi x = x * x. Karena menggunakan referensi, nilai asli dari variabel angka diubah langsung di memori.Hasilnya, nilai angka yang awalnya 5 menjadi 25 setelah pemanggilan fungsi.
 
 
 > Output
