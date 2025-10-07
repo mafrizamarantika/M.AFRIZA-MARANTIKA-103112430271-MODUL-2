@@ -1,7 +1,7 @@
 # M.AFRIZA-MARANTIKA-103112430271-MODUL-2
 LAPRAK MODUL 2
 # <h1 align="center">Laporan Praktikum Modul 2 <br> PENGENALAN BAHASA C++ (BAGIAN KEDUA) </h1>
-<p align="center">ULIL FAHMI NURWIDYA - 103112430178</p>
+<p align="center">M.AFRIZA MARANTIKA - 103112430271</p>
 
 ## Dasar Teori
 
