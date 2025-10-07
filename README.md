@@ -36,7 +36,7 @@ Fungsi tukar() menerima dua variabel, lalu menukar nilainya dengan variabel seme
 
 
 > Output
-> ![Screenshot bagian x](ssguided1.png)
+> ![Screenshot bagian x](outputmodul2/ssguided1.png)
 ### soal 2 (call_by_reference.cpp)
 ```c++
 #include <iostream>
