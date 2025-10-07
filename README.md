@@ -40,23 +40,42 @@ c++
 #include <iostream>
 using namespace std;
 
-void tukar(int &x, int &y);
+void transposeMatriks(int m[3][3], int hasil[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            hasil[j][i] = m[i][j];
+        }
+    }
+}
 
-int main()
-{
-    int a = 10, b = 20;
-    cout << "Sebelum ditukar: a = " << a << ", b = " << b << endl;
-    tukar(a, b);
-    cout << "Setelah ditukar: a = " << a << ", b = " << b << endl;
+void tampilkanMatriks(int m[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << m[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    int matriks[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+    int hasil[3][3];
+
+    cout << "Matriks Awal:" << endl;
+    tampilkanMatriks(matriks);
+
+    transposeMatriks(matriks, hasil);
+
+    cout << "\nMatriks Hasil Transpose:" << endl;
+    tampilkanMatriks(hasil);
+
     return 0;
 }
 
-void tukar(int &x, int &y)
-{
-    int temp = x;
-    x = y;
-    y = temp;
-}
 
 
 > Output
