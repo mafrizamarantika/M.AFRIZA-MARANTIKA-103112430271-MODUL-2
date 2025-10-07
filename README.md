@@ -165,7 +165,7 @@ Program di atas adalah program C++ yang digunakan untuk mengkuadratkan nilai seb
 
 
 > Output
-> ![Screenshot bagian x](output/ssunguided2.png)
+> ![Screenshot bagian x](outputmodul2/ssunguided2.png)
 
 
 ## Referensi
