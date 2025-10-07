@@ -81,7 +81,7 @@ int main() {
 Kode di atas adalah program C++ yang menukar nilai dua variabel (a dan b) menggunakan parameter referensi
 
 > Output
-> ![Screenshot bagian x](output/ssguided2.png)
+> ![Screenshot bagian x](outputmodul2/ssguided2.png)
 
 
 ## Unguided
@@ -133,7 +133,7 @@ Program di atas adalah program C++ yang digunakan untuk menukar baris menjadi ko
 
 
 > Output
-> ![Screenshot bagian x](output/ssunguided1.png)
+> ![Screenshot bagian x](outputmodul2/ssunguided1.png)
 
 
 
