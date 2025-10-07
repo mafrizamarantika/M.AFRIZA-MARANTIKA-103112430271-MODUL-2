@@ -1,5 +1,6 @@
 # M.AFRIZA-MARANTIKA-103112430271-MODUL-2
 LAPRAK MODUL 2
+
 # <h1 align="center">Laporan Praktikum Modul 2 <br> PENGENALAN BAHASA C++ (BAGIAN KEDUA) </h1>
 <p align="center">M.AFRIZA MARANTIKA - 103112430271</p>
 
@@ -7,7 +8,6 @@ LAPRAK MODUL 2
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan nilai dengan tipe data yang sama dalam satu variabel. Setiap nilai yang disimpan di dalam array disebut elemen array, dan masing-masing elemen dapat diakses menggunakan indeks.
 ## Guided
-
 ### soal 1 (call_by_pointer.cpp)
 c++
 #include <iostream>
@@ -32,9 +32,10 @@ void tukar(int *px, int *py)
 }
 
 
-> Output
-> ![Screenshot bagian x](output/ssguided1.png)
 
+
+> Output
+> ![Screenshot bagian x](output/ssguided2.png)
 ### soal 2 (call_by_reference.cpp)
 c++
 #include <iostream>
